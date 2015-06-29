@@ -1,0 +1,35 @@
+/* Better color for linked headers */
+h1 a,
+h2 a,
+h3 a {
+    color: #333;
+}
+
+footer {
+    margin-top: 20ex;
+}
+
+/* Out of site link */
+a[rel="external"] {
+  padding-right: 10px;
+}
+
+.navbar-nav a[rel="external"] {
+  padding-right: 10px;
+}
+
+a[rel="external"]:after {
+  position: absolute;
+  font-family: 'Glyphicons Halflings';
+  content: "\e164"; /* glyphicon-new-window */
+  padding-left: 2px;
+  font-size: 51%;
+}
+
+.navbar-nav a[rel="external"]:after {
+    font-size: 100%;
+}
+
+a[rel="external"]:hover:after {
+  text-decoration: none;
+}

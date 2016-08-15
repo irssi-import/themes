@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Irssi Themes</title>
+        <link href="//irssi.org/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/themes/assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+      <a href="https://github.com/irssi-import/themes"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" /></a>
+
+
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+        <h1>Irssi Themes</h1>
+        </div>
+    </div>
+    <div class="row">
+
+        <p>If you want your themes here, make a pull request and add your theme to the end of the list. Screenshots
+           in <strong>PNG</strong> or <strong>GIF</strong> formats only. No jpegs please, they just look worse and take a
+           lot more space.
+        </p>
+
+        <dt>Usage</dt><dl>Copy the .theme file to ~/.irssi/ directory, change the theme
+           with <code>/SET theme <em>theme_name</em></code>
+        </dl>
+<dl>
+            <dt>Why doesn't it look like the screenshot?</dt>
+            <dd>Screenshots are user-contributed. They contain a lot of information which is <strong>not</strong> part of the theme file:
+	      <ul><li>Background colour and image</li><li>font face and base colour</li><li>Additional scripts such as: nicklist, window list, nick colouring script.</li></ul>
+In most cases, the authors only sent in the theme files and none of those additional material.</dd>
+
+            <dt>Why is my irssi in a foreign language?</dt>
+	    <dd>Several themes have translated all irssi messages into the author's language. You can either edit those themes yourself or avoid them :-)</dd>
+        </dl>
+
+        <hr />
+    </div>
+  
+    <div class="row">
+      {% for theme in site.data.themes %}{%
+      include theme.html t=theme  %}{%
+      endfor %}
+</div><hr />
+  <!-- Add your theme in _data/themes.yaml ! -->
+</div>
+   
+ <footer class="container">
+    <div class="col-lg-12">
+        <p class="text-center">
+            All the content of this site is copyright ©
+            2000-2015
+            <a href="//irssi-import.github.io">The Irssi project</a>.
+        </p>
+    </div>
+</footer>
+
+    </body>
+</html>

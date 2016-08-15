@@ -33,3 +33,16 @@ a[rel="external"]:after {
 a[rel="external"]:hover:after {
   text-decoration: none;
 }
+
+
+/* col-sm-5 col-md-4 col-lg-3 
+ =>  2           3       4    */
+@media (min-width: 768px) and (max-width: 991px) {
+div.row div:nth-of-type(2n+1) { clear: both; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+div.row div:nth-of-type(3n+1) { clear: both; }
+}
+@media (min-width: 1200px) {
+div.row div:nth-of-type(4n+1) { clear: both; }
+}

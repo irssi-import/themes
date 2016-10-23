@@ -93,7 +93,7 @@
 - { name: ion_mod, by: McGovern }
 - { name: lemac-pl, by: Lemac }
 - { name: crap, by: McGovern }
-- { name : orb, by: eks, download_format: tbz2 }
+- { name: orb, by: eks, download_format: tbz2 }
 - { name: bluu, by: HiFi }
 - { name: evolution, by: McPolo }
 - { name: lemac, by: lemac }
@@ -156,7 +156,7 @@
 - { name: eon, by: eon }
 - { name: foo, by: shagr }
 - { name: dot, by: Han, download_format: tgz }
-- { nameL elf, by: ElectricElf, download_format: tgz }
+- { name: elf, by: ElectricElf, download_format: tgz }
 - { name: quux, by: zhafte }
 - { name: pasce, by: soulis }
 - { name: jokx, by: "jok'x" }

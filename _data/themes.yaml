@@ -188,4 +188,5 @@
 - { name: koivula, by: Koivula, format: gif }
 - { name: green, by: greeny, format: gif }
 - { name: crystal, by: kesara }
+- { name: pipeline, by: haro, comment: "<a href=\"https://github.com/hastinbe/irssi-theme-pipeline\">README</a>" }
 # Add your theme before this comment!

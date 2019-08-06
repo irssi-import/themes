@@ -1,192 +1,200 @@
 ---
 # add your theme at the end
-- { name: h3rbz, by: h3rbz }
-- { name: spring, by: Myrtti }
-- { name: dark_winter, by: Myrtti }
-- { name: elite, by: mrblackker }
-- { name: revolutionary, by: rolle }
-- { name: revolutionaryv2, by: rolle }
-- { name: revolutionaryv3, by: rolle }
-- { name: liszt, by: fliszt }
-- { name: screwer-redux, by: keeb }
-- { name: greenbox, by: Ir0n1E }
-- { name: doom, by: saketzu }
-- { name: soppa, by: rolle }
-- { name: envy, by: rolle }
-- { name: aka, by: curson }
-- { name: lighty, by: pulk }
+- { name: h3rbz, by: h3rbz, bgColor: black, fgColor: white}
+- { name: spring, by: Myrtti, bgColor: "#cdf9b4", fgColor: black }
+- { name: dark_winter, by: Myrtti, bgColor: "#f4c6e8", fgColor: black }
+- { name: elite, by: mrblackker, bgColor: black, fgColor: gray50 }
+- { name: revolutionary, by: rolle , bgColor: black, fgColor: gray50}
+- { name: revolutionaryv2, by: rolle, bgColor: black, fgColor: gray }
+- { name: revolutionaryv3, by: rolle, bgColor: black, fgColor: gray }
+- { name: liszt, by: fliszt, bgColor: black, fgColor: gray }
+- { name: screwer-redux, by: keeb, bgColor: '#555015', fgColor: gray50 }
+- { name: greenbox, by: Ir0n1E, bgColor: black, fgColor: gray }
+- { name: doom, by: saketzu, bgColor: black, fgColor: gray }
+- { name: soppa, by: rolle, bgColor: black, fgColor: gray30 }
+- { name: envy, by: rolle, bgColor: black, fgColor: gray }
+- { name: aka, by: curson, bgColor: black, fgColor: gray }
+- { name: lighty, by: pulk, bgColor: black, fgColor: white }
 - { name: mxl, by: mxl, download_format: tar.gz }
-- { name: pandemonium, by: tri }
-- { name: redhead, by: _dave }
-- { name: purplechat, by: _dave }
-- { name: syntax, by: _dave }
-- { name: yellowsyntax, by: _dave }
-- { name: evowhite, by: Ville Myllymäki }
-- { name: initrd, by: initrd }
-- { name: artificial-soul, by: ismaell }
-- { name: furry, by: Cenne }
-- { name: more_readable, by: WildFlame }
-- { name: japsu, by: Japsu }
-- { name: scaleddown, by: _dave }
-- { name: xchat2, by: _dave }
-- { name: greenedge, by: _dave }
-- { name: tugg, by: tugg }
+- { name: pandemonium, by: tri, bgColor: black, fgColor: gray }
+- { name: redhead, by: _dave, bgColor: gray10, fgColor: gray }
+- { name: purplechat, by: _dave, bgColor: black, fgColor: gray }
+- { name: syntax, by: _dave, bgColor: gray10, fgColor: gray }
+- { name: yellowsyntax, by: _dave, bgColor: black, fgColor: gray }
+- { name: evowhite, by: Ville Myllymäki, bgColor: gray80, fgColor: black }
+- { name: initrd, by: initrd, bgColor: black, fgColor: gray }
+- { name: artificial-soul, by: ismaell, bgColor: black, fgColor: gray }
+- { name: furry, by: Cenne, bgColor: '#3c3c3c', fgColor: gray90 }
+- { name: more_readable, by: WildFlame, bgColor: black, fgColor: gray70 }
+- { name: japsu, by: Japsu, bgColor: black, fgColor: gray70 }
+- { name: scaleddown, by: _dave, bgColor: black, fgColor: gray70 }
+- { name: xchat2, by: _dave, bgColor: gray10, fgColor: gray80 }
+- { name: greenedge, by: _dave, bgColor: gray10, fgColor: gray80 }
+- { name: tugg, by: tugg, bgColor: '#372112', fgColor: white }
 - { name: mursu, by: Anfar, download_format: zip }
-- { name: trakhel, by: anonymous }
-- { name: pyhy, by: pyhy }
-- { name: swehack, by: nocturnal }
-- { name: lenten, by: jasee }
-- { name: simplicity, by: opqdonut }
-- { name: hrncek, by: hrncek }
-- { name: insane, by: roy }
-- { name: kurja-round, by: Yaakov }
-- { name: nitz, by: Nitz }
-- { name: oscar, by: px }
-- { name: lt, by: by LinuxTux  }
-- { name: diskreet, by: bracket }
-- { name: spookydoom, by: yawgm8th }
-- { name: tzu, by: Tzunamii }
-- { name: rain, by: dana }
-- { name: greyed-out, by: bluet }
+- { name: trakhel, by: anonymous, bgColor: white, fgColor: gray70 }
+- { name: pyhy, by: pyhy, bgColor: black, fgColor: gray60 }
+- { name: swehack, by: nocturnal, bgColor: black, fgColor: gray60 }
+- { name: lenten, by: jasee, bgColor: black, fgColor: gray60 }
+- { name: simplicity, by: opqdonut, bgColor: white, fgColor: black }
+- { name: hrncek, by: hrncek, bgColor: black, fgColor: gray60 }
+- { name: insane, by: roy, bgColor: black, fgColor: gray60 }
+- { name: kurja-round, by: Yaakov, bgColor: '#0e151c', fgColor: gray80 }
+- { name: nitz, by: Nitz, bgColor: black, fgColor: gray80 }
+- { name: oscar, by: px, bgColor: black, fgColor: gray60 }
+- { name: lt, by: by LinuxTux, bgColor: '#0c1b35', fgColor: white  }
+- { name: diskreet, by: bracket, bgColor: white, fgColor: gray60 }
+- { name: spookydoom, by: yawgm8th, bgColor: black, fgColor: gray60 }
+- { name: tzu, by: Tzunamii, bgColor: black, fgColor: gray70 }
+- { name: rain, by: dana, bgColor: '#40424e', fgColor: white }
+- { name: greyed-out, by: bluet, bgColor: black, fgColor: white }
 - { name: dma147, by: dma147, download_format: tar.bz2 }
-- { name: murf, by: Harmen }
-- { name: bw-wb-ryb, by: Nico }
-- { name: n, by: nikt }
-- { name: elpi, by: anonymous }
-- { name: mithru, by: avu }
-- { name: mork, by: Sho }
-- { name: tonisepro, by: Tonise }
-- { name: mosdef, by: deadcow }
-- { name: rolle, by: rolle }
-- { name: parenthetical, by: dwu }
-- { name: dbm, by: dbmathis }
-- { name: c0ders, by: PCrazee }
-- { name: design, by: awad }
-- { name: madcow, by: dubkat }
-- { name: lyynx, by: LyyNx }
-- { name: kompakt, by: rm }
-- { name: evilkat, by: dubkat }
-- { name: screwer, by: ak5 }
-- { name: xchat, by: _dave }
-- { name: cyanic, by: bracket }
-- { name: stx, by: stx }
-- { name: trax, by: opqdonut }
-- { name: fluxmod, by: ikaro }
-- { name: industrial, by: blaze }
-- { name: agon, by: agon }
-- { name: ksiadz, by: ksiadz }
-- { name: hv, by: cubik }
-- { name: defacto, by: statico }
-- { name: tinylajs, by: tewmten }
-- { name: roses, by: Myrtti }
-- { name: vt510+xterm, by: TauPan }
-- { name: spot, by: dana }
-- { name: sfc1337, by: souleman }
-- { name: mazii, by: mazii }
-- { name: telix, by: bufh }
-- { name: sfcblue, by: souleman }
-- { name: skeita, by: petrucci }
-- { name: lime, by: erc }
-- { name: skan, by: skanZoft }
-- { name: neutralorange, by: Marquz }
-- { name: bestican, by: alexar }
-- { name: ion_mod, by: McGovern }
-- { name: lemac-pl, by: Lemac }
-- { name: crap, by: McGovern }
+- { name: murf, by: Harmen, bgColor: black, fgColor: gray70 }
+- { name: bw-wb-ryb, by: Nico, bgColor: black, fgColor: white }
+  # fg is set to black. the image has bg black
+- { name: n, by: nikt, bgColor: gray, fgColor: gray40 }
+- { name: elpi, by: anonymous, bgColor: black, fgColor: gray80 }
+- { name: mithru, by: avu, bgColor: gray10, fgColor: gray90 }
+- { name: mork, by: Sho, bgColor: black, fgColor: gray70 }
+- { name: tonisepro, by: Tonise, bgColor: black, fgColor: green }
+- { name: mosdef, by: deadcow, bgColor: black, fgColor: white }
+- { name: rolle, by: rolle, bgColor: black, fgColor: gray40 }
+- { name: parenthetical, by: dwu, bgColor: black, fgColor: gray70 }
+- { name: dbm, by: dbmathis, bgColor: black, fgColor: gray70 }
+- { name: c0ders, by: PCrazee, bgColor: white, fgColor: black }
+- { name: design, by: awad, bgColor: black, fgColor: gray50 }
+- { name: madcow, by: dubkat, bgColor: black, fgColor: gray50 }
+- { name: lyynx, by: LyyNx, bgColor: '#263541', fgColor: white }
+- { name: kompakt, by: rm, bgColor: black, fgColor: white }
+- { name: evilkat, by: dubkat, bgColor: black, fgColor: gray70 }
+- { name: screwer, by: ak5, bgColor: '#585516', fgColor: gray50 }
+- { name: xchat, by: _dave, bgColor: gray10, fgColor: gray70 }
+- { name: cyanic, by: bracket, bgColor: black, fgColor: gray70 }
+- { name: stx, by: stx, bgColor: '#633408', fgColor: gray50 }
+- { name: trax, by: opqdonut, bgColor: black, fgColor: gray80 }
+- { name: fluxmod, by: ikaro, bgColor: '#254a17', fgColor: gray70 }
+- { name: industrial, by: blaze, bgColor: black, fgColor: gray80 }
+- { name: agon, by: agon, bgColor: '#293c42', fgColor: gray70 }
+- { name: ksiadz, by: ksiadz, bgColor: '#16202b', fgColor: '#18b2b2' }
+- { name: hv, by: cubik, bgColor: black, fgColor: gray70 }
+- { name: defacto, by: statico, bgColor: black, fgColor: gray80 }
+- { name: tinylajs, by: tewmten, bgColor: black, fgColor: white }
+- { name: roses, by: Myrtti, bgColor: black, fgColor: gray70 }
+- { name: vt510+xterm, by: TauPan, bgColor: gray80, fgColor: gray30 }
+- { name: spot, by: dana, bgColor: '#001120' , fgColor: white }
+- { name: sfc1337, by: souleman, bgColor: black, fgColor: green }
+- { name: mazii, by: mazii, bgColor: '#37250b', fgColor: gray90 }
+- { name: telix, by: bufh, bgColor: '#0f1519', fgColor: gray90 }
+- { name: sfcblue, by: souleman, bgColor: '#000039', fgColor: gray90 }
+- { name: skeita, by: petrucci, bgColor: black, fgColor: gray80 }
+- { name: lime, by: erc, bgColor: gray20, fgColor: gray80 }
+- { name: skan, by: skanZoft, bgColor: black, fgColor: gray70 }
+- { name: neutralorange, by: Marquz, bgColor: black, fgColor: gray80 }
+  # fg is set to black. the image has bg black
+- { name: bestican, by: alexar, bgColor: gray, fgColor: gray20 }
+- { name: ion_mod, by: McGovern, bgColor: '#080408', fgColor: gray60 }
+- { name: lemac-pl, by: Lemac, bgColor: black, fgColor: gray50 }
+- { name: crap, by: McGovern, bgColor: black, fgColor: gray60 }
 - { name: orb, by: eks, download_format: tbz2 }
-- { name: bluu, by: HiFi }
-- { name: evolution, by: McPolo }
-- { name: lemac, by: lemac }
-- { name: tanke, by: Tanke }
-- { name: sputnik, by: Tanke }
-- { name: kaer-2, by: kaer }
-- { name: hellfire, by: Anzuhan }
+- { name: bluu, by: HiFi, bgColor: black, fgColor: gray80 }
+- { name: evolution, by: McPolo, bgColor: black, fgColor: gray70 }
+- { name: lemac, by: lemac, bgColor: black, fgColor: gray70 }
+- { name: tanke, by: Tanke, bgColor: gray10, fgColor: gray80 }
+- { name: sputnik, by: Tanke, bgColor: black, fgColor: white }
+- { name: kaer-2, by: kaer, bgColor: black, fgColor: gray80 }
+- { name: hellfire, by: Anzuhan, bgColor: black, fgColor: gray80 }
 - { name: angelic, by: ArcAngel, download_link: angelic4.4.tar.gz }
-- { name: sux, by: Aleksandr }
-- { name: cross, by: cross, format: gif }
-- { name: pikkuh, by: pikku-h }
-- { name: epic, by: andrey, format: gif }
-- { name: lesscolors, by: dt }
-- { name: generane, by: generane }
-- { name: qlth, by: defrag }
+- { name: sux, by: Aleksandr, bgColor: '#0f2946', fgColor: gray90 }
+- { name: cross, by: cross, format: gif, bgColor: black, fgColor: gray70 }
+- { name: pikkuh, by: pikku-h, bgColor: black, fgColor: gray60 }
+- { name: epic, by: andrey, format: gif, bgColor: white, fgColor: black }
+- { name: lesscolors, by: dt, bgColor: black, fgColor: gray80 }
+- { name: generane, by: generane, bgColor: '#282725', fgColor: gray70 }
+- { name: qlth, by: defrag, bgColor: '#000031', fgColor: gray90 }
 - { name: elho, by: elho, download_link: irssi-elho.theme-1.3.tar.gz }
-- { name: kaer, by: kaer }
+- { name: kaer, by: kaer, bgColor: black, fgColor: gray60 }
 - { name: taliz, by: taliz, download_format: tgz }
-- { name: cananal, by: ^Faust^ }
-- { name: mine, by: BoBB }
-- { name: ea1, by: EckigesAuge }
-- { name: rettoscopia, by: ^Faust^ }
-- { name: splitfire, by: ccr }
-- { name: oxynox, by: ataxic }
-- { name: kurja, by: renni }
-- { name: xmas, by: Charn }
-- { name: lilah, by: ladydana }
-- { name: void, by: fahren }
-- { name: greenSCPleo, by: "}{pt0" }
-- { name: ectobar, by: lude }
-- { name: liten, by: liten }
-- { name: en, by: en, format: gif }
-- { name: lemmu, by: Hydra, format: gif }
-- { name: litE, by: smoku, format: gif }
-- { name: foxmask, by: foxmask }
-- { name: madeye, by: Svarre, format: gif }
-- { name: laaama-2, by: laaama }
-- { name: darksystem, by: source }
-- { name: magick, by: md }
-- { name: huara, by: geel }
-- { name: bork, by: fraki }
-- { name: salsa, by: xfesty }
-- { name: mrooveq, by: mrooveq, format: gif }
-- { name: chaves, by: "Florindo'Admim" }
-- { name: asyura, by: rxcv }
-- { name: quubba, by: quubba }
-- { name: simpleii, by: six }
-- { name: hagge, by: hagge }
-- { name: clean, by: sabi }
-- { name: pgreen, by: gs }
-- { name: mirkk32, by: hygge }
-- { name: garden, by: godog }
-- { name: stevee, by: stevee }
-- { name: IamCyan, by: marmot }
-- { name: ash, by: Little Dragon }
-- { name: misso, by: misso }
-- { name: easyeye, by: Kuma }
-- { name: swift, by: swift }
-- { name: osbxwannabe, by: SpamapS }
-- { name: eon, by: eon }
-- { name: foo, by: shagr }
+- { name: cananal, by: "^Faust^", bgColor: black, fgColor: cyan }
+- { name: mine, by: BoBB, bgColor: gray70, fgColor: gray20 }
+- { name: ea1, by: EckigesAuge, bgColor: gray30, fgColor: gray80 }
+- { name: rettoscopia, by: "^Faust^", bgColor: black, fgColor: gray70 }
+- { name: splitfire, by: ccr, bgColor: black, fgColor: gray80 }
+- { name: oxynox, by: ataxic, bgColor: black, fgColor: gray70 }
+- { name: kurja, by: renni, bgColor: '#1b1b00' , fgColor: gray90 }
+- { name: xmas, by: Charn, bgColor: '#540000', fgColor: gray70 }
+- { name: lilah, by: ladydana, bgColor: '#400040', fgColor: gray80 }
+  # fg is set to black. the image has bg black
+- { name: void, by: fahren, bgColor: gray50, fgColor: gray20 }
+- { name: greenSCPleo, by: "}{pt0", bgColor: black, fgColor: green }
+- { name: ectobar, by: lude, bgColor: '#17192d', fgColor: gray70 }
+- { name: liten, by: liten, bgColor: black, fgColor: gray80 }
+- { name: en, by: en, format: gif, bgColor: black, fgColor: gray70 }
+- { name: lemmu, by: Hydra, format: gif, bgColor: black, fgColor: gray70 }
+- { name: litE, by: smoku, format: gif, bgColor: black, fgColor: gray70 }
+- { name: foxmask, by: foxmask, bgColor: white, fgColor: black }
+- { name: madeye, by: Svarre, format: gif, bgColor: black, fgColor: gray80 }
+- { name: laaama-2, by: laaama, bgColor: '#230101', fgColor: gray80 }
+- { name: darksystem, by: source, bgColor: black, fgColor: gray60 }
+  # fg is set to black. the image has bg black
+- { name: magick, by: md, bgColor: gray80, fgColor: gray50 }
+- { name: huara, by: geel, bgColor: black, fgColor: gray70 }
+- { name: bork, by: fraki, bgColor: '#001c44', fgColor: gray80 }
+- { name: salsa, by: xfesty, bgColor: black, fgColor: gray70 }
+- { name: mrooveq, by: mrooveq, format: gif, bgColor: black, fgColor: gray70 }
+- { name: chaves, by: "Florindo'Admim", bgColor: '#212c31', fgColor: gray90 }
+- { name: asyura, by: rxcv, bgColor: black, fgColor: white }
+- { name: quubba, by: quubba, bgColor: black, fgColor: gray60 }
+- { name: simpleii, by: six, bgColor: black, fgColor: white }
+- { name: hagge, by: hagge, bgColor: black, fgColor: gray90 }
+- { name: clean, by: sabi, bgColor: white, fgColor: black }
+- { name: pgreen, by: gs, bgColor: black, fgColor: gray90 }
+- { name: mirkk32, by: hygge, bgColor: '#f6f6f6', fgColor: black }
+- { name: garden, by: godog, bgColor: black, fgColor: gray70 }
+- { name: stevee, by: stevee, bgColor: black, fgColor: gray70 }
+- { name: IamCyan, by: marmot, bgColor: gray20, fgColor: gray80 }
+- { name: ash, by: Little Dragon, bgColor: black, fgColor: gray70 }
+- { name: misso, by: misso, bgColor: black, fgColor: gray60 }
+- { name: easyeye, by: Kuma, bgColor: black, fgColor: gray70 }
+- { name: swift, by: swift, bgColor: black, fgColor: gray70 }
+- { name: osbxwannabe, by: SpamapS, bgColor: black, fgColor: gray70 }
+- { name: eon, by: eon, bgColor: '#03146c', fgColor: gray70 }
+- { name: foo, by: shagr, bgColor: '#282f3f', fgColor: gray70 }
 - { name: dot, by: Han, download_format: tgz }
 - { name: elf, by: ElectricElf, download_format: tgz }
-- { name: quux, by: zhafte }
-- { name: pasce, by: soulis }
-- { name: jokx, by: "jok'x" }
-- { name: ocean, by: tjamtjam, format: gif }
-- { name: greenish, by: geel }
-- { name: ski, by: skijk }
-- { name: ion, by: Ion }
-- { name: hnsk, by: hnsk, format: gif }
-- { name: shrike, by: Shrike }
-- { name: relaxed, by: Shruuf }
-- { name: gothic, by: benny }
-- { name: ekh, by: ekh }
-- { name: simple, by: geel }
-- { name: daywalker, by: The_1, format: gif }
-- { name: whitespace, by: Lanze }
-- { name: chill, by: soulis }
-- { name: zng, by: ZaNaGa }
+- { name: quux, by: zhafte, bgColor: '#394563', fgColor: gray70 }
+  # fg is set to black. the image has bg black
+- { name: pasce, by: soulis, bgColor: gray70, fgColor: gray20 }
+- { name: jokx, by: "jok'x", bgColor: black, fgColor: green }
+- { name: ocean, by: tjamtjam, format: gif, bgColor: black, fgColor: gray70 }
+  # fg is set to black. the image has bg black
+- { name: greenish, by: geel, bgColor: grey70, fgColor: gray20 }
+- { name: ski, by: skijk, bgColor: gray10, fgColor: gray80 }
+- { name: ion, by: Ion, bgColor: black, fgColor: blue }
+- { name: hnsk, by: hnsk, format: gif, bgColor: black, fgColor: gray70 }
+- { name: shrike, by: Shrike, bgColor: black, fgColor: gray70 }
+- { name: relaxed, by: Shruuf, bgColor: black, fgColor: gray60 }
+- { name: gothic, by: benny, bgColor: black, fgColor: gray70 }
+- { name: ekh, by: ekh, bgColor: black, fgColor: gray90 }
+  # fg is set to black. the image has bg black
+- { name: simple, by: geel, bgColor: dark orange, fgColor: gray50 }
+- { name: daywalker, by: The_1, format: gif, bgColor: black, fgColor: gray50 }
+- { name: whitespace, by: Lanze, bgColor: black, fgColor: gray60 }
+  # fg is set to black. the image has bg black
+- { name: chill, by: soulis, bgColor: gray50, fgColor: gray20 }
+- { name: zng, by: ZaNaGa, bgColor: black, fgColor: gray80 }
 - { name: maria7, by: Zoey, format: gif, download_format: tgz }
-- { name: shruuf, by: Shruuf }
-- { name: white, by: "???", screenshot: white.jpg, comment: 'theme with white background' }
-- { name: naula, by: naula }
-- { name: thirdeye, by: salo }
-- { name: laaama, by: laaama }
-- { name: zhafte, by: zhafte, format: gif }
-- { name: BitchX, by: "???", comment: 'BitchX look' }
-- { name: jsuvanto, by: JSuvanto, format: gif }
-- { name: mutru, by: Mutru }
-- { name: mika, by: "[Mika]", format: gif }
-- { name: koivula, by: Koivula, format: gif }
-- { name: green, by: greeny, format: gif }
-- { name: crystal, by: kesara }
-- { name: pipeline, by: haro, comment: "<a href=\"https://github.com/hastinbe/irssi-theme-pipeline\">README</a>" }
+- { name: shruuf, by: Shruuf, bgColor: black, fgColor: gray50 }
+- { name: white, by: "???", screenshot: white.jpg, comment: 'theme with white background', bgColor: gray95, fgColor: black }
+- { name: naula, by: naula, bgColor: black, fgColor: dark orange }
+- { name: thirdeye, by: salo, bgColor: black, fgColor: gray80 }
+- { name: laaama, by: laaama, bgColor: black, fgColor: gray60 }
+- { name: zhafte, by: zhafte, format: gif, bgColor: black, fgColor: gray60 }
+- { name: BitchX, by: "???", comment: 'BitchX look', bgColor: black, fgColor: gray60 }
+- { name: jsuvanto, by: JSuvanto, format: gif, bgColor: black, fgColor: gray60 }
+- { name: mutru, by: Mutru, bgColor: black, fgColor: gray70 }
+- { name: mika, by: "[Mika]", format: gif, bgColor: black, fgColor: gray70 }
+- { name: koivula, by: Koivula, format: gif, bgColor: black, fgColor: gray80 }
+- { name: green, by: greeny, format: gif, bgColor: black, fgColor: gray80 }
+- { name: crystal, by: kesara, bgColor: black, fgColor: gray60 }
+- { name: pipeline, by: haro, comment: "<a href=\"https://github.com/hastinbe/irssi-theme-pipeline\">README</a>", bgColor: black, fgColor: gray60 }
 # Add your theme before this comment!

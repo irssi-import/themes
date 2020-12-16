@@ -46,3 +46,21 @@ div.row div:nth-of-type(3n+1) { clear: both; }
 @media (min-width: 1200px) {
 div.row div:nth-of-type(4n+1) { clear: both; }
 }
+@media (prefers-color-scheme: dark) {
+    body {
+	background-color: #2e3440;
+	color: #ffffff;
+    }
+    code,
+    pre {
+	background-color: #1d232e;/*#3b4252*/;
+	color: #eceff4;
+    }
+    a {
+	color: #8699bb;
+    }
+    a:hover,
+    a:focus {
+	color: #5e81ac;
+    }
+}

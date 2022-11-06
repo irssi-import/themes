@@ -1,15 +1,31 @@
-{% assign t = include.t %}{%
+{%
+assign t = include.t %}{%
 assign format = t.format %}{%
-unless format %}{% assign format = "png" %}{% endunless %}{%
+unless format %}{%
+    assign format = "png" %}{%
+endunless %}{%
 assign screenshot = t.screenshot %}{%
 assign name = t.name %}{%
-unless screenshot %}{% capture screenshot %}{{ name }}.{{ format }}{% endcapture %}{% endunless %}{%
+unless screenshot %}{%
+    capture screenshot
+        %}{{ name }}.{{ format }}{%
+    endcapture %}{%
+endunless %}{%
 assign download = t.download_link %}{%
 assign download_format = t.download_format %}{%
-unless download_format %}{% assign download_format = "theme" %}{% endunless %}{%
-unless download %}{% capture download %}{{ name }}.{{ download_format }}{% endcapture %}{% endunless %}{% comment %}{% endcomment
+unless download_format %}{%
+    assign download_format = "theme" %}{%
+endunless %}{%
+unless download %}{%
+    capture download
+        %}{{ name }}.{{ download_format }}{%
+    endcapture %}{%
+endunless
 %}<div class="col-sm-5 col-md-4 col-lg-3">
     <p><a href="{{ screenshot }}"><img src="thumb/t_{{ name }}.{{ format }}" alt="screenshot" /></a><br />
-      <strong><a href="{{ download }}">{{ name }}</a></strong><br />{{ t.comment }}{% if t.comment %}<br />{% endif %}{%
-      unless t.by == "???" %}by {{ t.by }}{% endunless %}</p>
+        <strong><a href="{{ download }}">{{ name }}</a></strong><br />{{ t.comment }}{% if t.comment %}<br />{% endif %}{%
+        unless t.by == "???"
+            %}by {{ t.by }}{%
+        endunless
+    %}</p>
 </div>

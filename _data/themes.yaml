@@ -198,4 +198,5 @@
 - { name: crystal, by: kesara, bgColor: black, fgColor: gray60 }
 - { name: pipeline, by: haro, comment: "<a href=\"https://github.com/hastinbe/irssi-theme-pipeline\">README</a>", bgColor: black, fgColor: gray60 }
 - { name: default2, by: Anonymous, bgColor: black, fgColor: gray }
+- { name: ipx, by: blixten85, bgColor: black, fgColor: gray80 }
 # Add your theme before this comment!

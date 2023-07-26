@@ -184,7 +184,7 @@
 - { name: zng, by: ZaNaGa, bgColor: black, fgColor: gray80 }
 - { name: maria7, by: Zoey, format: gif, download_format: tgz }
 - { name: shruuf, by: Shruuf, bgColor: black, fgColor: gray50 }
-- { name: white, by: "???", screenshot: white.jpg, comment: 'theme with white background', bgColor: gray95, fgColor: black }
+- { name: white, by: "???", format: jpg, comment: 'theme with white background', bgColor: gray95, fgColor: black }
 - { name: naula, by: naula, bgColor: black, fgColor: dark orange }
 - { name: thirdeye, by: salo, bgColor: black, fgColor: gray80 }
 - { name: laaama, by: laaama, bgColor: black, fgColor: gray60 }

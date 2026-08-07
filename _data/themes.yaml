@@ -31,7 +31,7 @@
 - { name: xchat2, by: _dave, bgColor: gray10, fgColor: gray80 }
 - { name: greenedge, by: _dave, bgColor: gray10, fgColor: gray80 }
 - { name: tugg, by: tugg, bgColor: '#372112', fgColor: white }
-- { name: mursu, by: Anfar, download_format: zip }
+- { name: mursu, by: Anfar, bgColor: black, fgColor: gray80 }
 - { name: trakhel, by: anonymous, bgColor: white, fgColor: gray70 }
 - { name: pyhy, by: pyhy, bgColor: black, fgColor: gray60 }
 - { name: swehack, by: nocturnal, bgColor: black, fgColor: gray60 }

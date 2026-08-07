@@ -43,6 +43,16 @@ foreach my $n ( @$d ) {
 		$ec=1;
 	}
 	$df{$download}=$n;
+	if ( ! exists $n->{by} ) {
+		print "warning: no by field for $n->{name}\n";
+	}
+	if ( ! exists $n->{download_format} && ! exists $n->{download_link} ) {
+		foreach my $f ( ('bgColor', 'fgColor' ) ) {
+			if ( ! exists $n->{$f} ) {
+				print "warning: no $f field for $n->{name}\n";
+			}
+		}
+	}
 }
 
 opendir my $di, "." ;

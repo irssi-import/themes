@@ -1,0 +1,71 @@
+# 'METRIC' Theme by EKS - Dave Poirier
+# Alignment is good for you
+
+
+abstracts = {
+  line_start	= "%W!%N";
+  prompt	= "%K>%B$*%K> %N";
+};
+
+formats = {
+  "fe-common/irc" = {
+
+    # Actions handling
+    own_action		= "%W*%|$[-9]0%K)) %W$1";
+    own_action_target	= "%W*%|$[-9]0%K)) %W$1";
+    action_private	= "%W*%|$[-9]0%K)) %W$2";
+    action_private_query= "%W*%|$[-9]0%K)) %W$2";
+    action_public	= "%W*%|$[-9]0%K)) %W$1";
+    action_public_channel = "%W*%|$[-9]0%K)) happening in (%B$1%K): %W$2";
+
+    # User/Channel mode changes
+    chanmode_change	= "%|%K-%WCHANMODE%K)) %W$0%K(%W$1%K) by %W$2";
+    usermode_change	= "%|%K-%WUSERMODE%K)) %W$1%K received %W$0";
+    user_mode		= "%|%K-%WUSERMODE%K)) %WYOU%K received %W$0";
+
+    # Serious injuries
+    kill		= "%R!%K--%RKILL!%K--%R)%K) %R$0%K(%R$1%K) killed %RYOU%K: %R$2%K (%W$3%K)";
+    kill_server		= "%R!%K--%RKILL!%K--%R)%K) server %R$0%K killed %RYOU%K: %R$1%K (%W$2%K)";
+    notice_server	= "%R!%K-%RNOTICE!%K-%R)%K) by %R$0%K: %W$1";
+
+    # Channel info
+    channel_synced	= "%B!%K-%BSYNCED!%K-%B)%K) %B$0%K in %B$1%K secs";
+    topic		= "%B!%K-%BTOPIC!%K-%B)%K) %B$0%K: %W$1";
+    topic_info		= "%B!%K-%BTOPIC!%K-%B)%K) set by %B$0%K: %W$1";
+  };
+  "fe-common/core" = {
+    timestamp = "%K(%B%%H%K.%B%%M%K.%B%%S%K|%K";
+
+    # Messages handling
+    own_msg		= "%B$2%|%w$[-9]0%B)%K) %B$1";
+    own_msg_channel	= "%B$2%|%w$[-9]0%B)%K) %B$1";
+    own_msg_private	= "%B|%|%w$[-9]0%B)%K) %B$1";
+    own_msg_private_query = "%B=%|%w$[-9]2%B)%K) %B$1";
+    pubmsg		= "%Y$2%|%w$[-9]0%Y)%K) %w$1";
+    pubmsg_me		= "%R$2%|%w$[-9]0%R)%K) %R$1";
+    pubmsg_me_channel	= "%R$2%|%w$[-9]0%R)%K) %R$1";
+    msg_private		= "%Y|%|%w$[-9]0%Y)%K) %w$2";
+    msg_private_query	= "%Y=%|%w$[-9]0%Y)%K) %w$2";
+
+    # Nick changes
+    your_nick_changed	= "%|%K-%YNEW NICK%K%W)%K) %YYOU%K are now known as %Y$1";
+    nick_changed	= "%|%K-%YNEW NICK%K%W)%K) %Y$0%K >> %Y$1";
+
+    # Topic changes
+    new_topic	= "%|%YNEW TOPIC%W)%K) by %B$0%K to %B$1%K: %Y$2";
+    topic_unset	= "%|%W$[-10]1)%K) TOPIC UNSET(by %B$0%n)";
+
+    # Channel join/part/invite/kick/*
+    invite	= " %K-%YINVITE%K- )) by %B$0%K to %Y$1";
+    kick	= " %K--%RKICK%K--)) %B$0%K from %B$1%K by %B$2%K: %Y$3";
+    join	= " %K--%YJOIN%K--)) %B$2%K << (%B$1%K): %Y$0";
+    part	= " %K--%YPART%K--)) %B$0%K from %B$2%K with: %Y$3";
+    quit	= " %K--%YQUIT%K--)) %B$0%K with: %Y$2";
+    quit_once	= " %K--%YQUIT%K--)) %B$0%K from %B$3%K with: %Y$2";
+
+    # Theme load!
+    window_theme	= "%|%K[ %YTHEME%K ]-%Y)%K)---%Y>%K> %B$0";
+    window_theme_changed= "%|%K[ %YTHEME%K ]-%Y)%K)---%Y>%K> now using: %Y$0%K (%B$1%K)";
+  };
+};
+
